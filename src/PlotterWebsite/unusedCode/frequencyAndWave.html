@@ -1,0 +1,106 @@
+<!--Body section-->
+<div>
+  <div class="container py-4">
+
+    <div class="row align-items-md-stretch">
+      <!--Waveform selection-->
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light rounded-3">
+          <a href="#frequency" style="text-decoration: none; color: black"><h2>Waveform Selection</h2></a>
+          <div class="form-floating">
+            <select class="form-select" id="WaveformSelect" aria-label="Floating label select example" onchange="showDiv()">
+              <option selected id="default"> </option>
+              <option value="1">Square Wave</option>
+              <option value="2">PWM Wave</option>
+            </select>
+            <label for="WaveformSelect">Select Waveform</label>
+          </div>
+          <button class="btn btn-primary updateTable" type="button" onclick="updateWave()">Load data</button>
+        </div>
+      </div>
+
+      <!--Frequency selector-->
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light rounded-3">
+          <a href="#frequency" style="text-decoration: none; color: black"><h2>Frequency Selection</h2></a>
+          <div id="SquareWave" style="display: none">
+            <form class="form-floating" >
+              <input type="number" class="form-control" id="Square" onKeyPress="if(this.value.length==7) return false;"  placeholder="150" value="150" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1')">
+              <label for="Square">Numeric input value</label>
+            </form>
+          </div>
+          <div id="PWM" style="display: none">
+            <label for="dutyCycle" class="form-label">Duty Cycle</label>
+            <input type="range" class="form-range" min="0" max="100" step="5" id="dutyCycle" onchange="getDataRange()">
+            <input id="realTimeV" readonly>
+          </div>
+          <button class="btn btn-primary updateTable" type="button" onclick="updateFrequency()">Load data</button>
+        </div>
+      </div>
+
+    </div> <!--End SecondDivWaveform&Frequency-->
+  </div><!--End mainDiv-->
+
+  <!-- Data to send=> table format-->
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-9 fw-bold">Waveform values to send</h1>
+    <div class="col-lg-6 mx-auto">
+      <table class="table table-hover table-bordered" id="tableData">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Wave</th>
+          <th scope="col">Frequency</th>
+          <th scope="col">Period</th>
+          <th scope="col">Duty Cycle</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Square</td>
+          <td>100Hz</td>
+          <td>1/100Hz</td>
+          <td id="tableDuty">nan</td>
+        </tr>
+
+        </tbody>
+      </table>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" id="submit">Send</button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="90" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16" id="check">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16" id="err">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+        </svg>
+      </div>
+    </div>
+
+  </div> <!--End table-->
+
+
+
+  </div>
+
+
+
+  <!-- Description -->
+  <div>
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <div>
+          <h3 id="waveform">Waveform</h3>
+          <p>In electronics, acoustics, and related fields, the waveform of a signal is the shape of its graph as a
+            function of time, independent of its time and magnitude scales and of any displacement in time.</p>
+        </div>
+        <div>
+          <h3 id="frequency">Frequency</h3>
+          <p>Frequency is the number of occurrences of a repeating event per unit of time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

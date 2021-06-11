@@ -1,0 +1,22 @@
+.updateTable{
+  margin-top: 2%;
+}
+
+.tabelDuty{
+  display: none;
+}
+
+#realTimeV{
+  border:0 none;
+  margin:0 13px 0 0;
+  text-align:left;
+  width: auto;
+  background-color:#f8f9fa !important;
+  font-size: small;
+  color: gray;;
+}
+
+#realTimeV:focus, #realTimeV:focus{
+  outline: none;
+}
+

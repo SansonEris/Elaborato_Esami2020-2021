@@ -1,0 +1,553 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"6 /opt/microchip/xc8/v1.36/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"32 /opt/microchip/xc8/v1.36/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 /opt/microchip/xc8/v1.36/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.36/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.36/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v1.36/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.36/sources/common/ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"44 /opt/microchip/xc8/v1.36/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"33 /opt/microchip/xc8/v1.36/sources/common/strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"4 /opt/microchip/xc8/v1.36/sources/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v1.36/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v1.36/sources/common/Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 /opt/microchip/xc8/v1.36/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"85 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"231
+[v _getCanvasDim getCanvasDim `(i  1 e 2 0 ]
+"250
+[v _getCoords getCoords `(i  1 e 2 0 ]
+"266
+[v _equivVal equivVal `(i  1 e 2 0 ]
+"276
+[v _toint toint `(i  1 e 2 0 ]
+"301
+[v _constSpeed constSpeed `(v  1 e 1 0 ]
+"315
+[v _contStepX contStepX `(v  1 e 1 0 ]
+"354
+[v _contStepY contStepY `(v  1 e 1 0 ]
+"1 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+[v _modM1 modM1 `(v  1 e 1 0 ]
+"47
+[v _modM2 modM2 `(v  1 e 1 0 ]
+"95
+[v _modM3 modM3 `(v  1 e 1 0 ]
+"67 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _ms_delay ms_delay `(v  1 e 1 0 ]
+"159
+[v _stepMotorX stepMotorX `(v  1 e 1 0 ]
+"181
+[v _stepMotorY stepMotorY `(v  1 e 1 0 ]
+"202
+[v _stepMotorZ stepMotorZ `(v  1 e 1 0 ]
+"231
+[v _maxStep maxStep `(i  1 e 2 0 ]
+"237
+[v _activeMotor activeMotor `(i  1 e 2 0 ]
+"244
+[v _limitx limitx `(i  1 e 2 0 ]
+"254
+[v _limity limity `(i  1 e 2 0 ]
+"263
+[v _limitz limitz `(i  1 e 2 0 ]
+"4 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"35
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+"41
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+"50
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+"64
+[v _UART_RxString UART_RxString `(uc  1 e 1 0 ]
+"95
+[v _UART_GotoNewLine UART_GotoNewLine `(v  1 e 1 0 ]
+"102
+[v _UART_TxInt UART_TxInt `(v  1 e 1 0 ]
+"141
+[v _UART_TxDeci UART_TxDeci `(v  1 e 1 0 ]
+"160 /opt/microchip/xc8/v1.36/include/pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S19 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"177
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES28  1 e 1 @5 ]
+"221
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S95 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"238
+[u S104 . 1 `S95 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES104  1 e 1 @6 ]
+"282
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S40 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"299
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES49  1 e 1 @7 ]
+"343
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S74 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"360
+[u S83 . 1 `S74 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES83  1 e 1 @8 ]
+"404
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S61 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"417
+[u S66 . 1 `S61 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES66  1 e 1 @9 ]
+[s S182 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1041
+[s S191 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S195 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S198 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S201 . 1 `S182 1 . 1 0 `S191 1 . 1 0 `S195 1 . 1 0 `S198 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES201  1 e 1 @24 ]
+"1105
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1111
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1379
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1440
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1501
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1562
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1623
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S145 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2527
+[s S154 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S158 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S161 . 1 `S145 1 . 1 0 `S154 1 . 1 0 `S158 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES161  1 e 1 @152 ]
+"2586
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2647
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @154 ]
+[s S124 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3280
+[u S133 . 1 `S124 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES133  1 e 1 @391 ]
+"3314
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3375
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3666
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3776
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"3892
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"4138
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"33 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _MStepX MStepX `i  1 e 2 0 ]
+[v _MStepY MStepY `i  1 e 2 0 ]
+[v _MStepZ MStepZ `i  1 e 2 0 ]
+"36
+[v _stepX stepX `[7]uc  1 e 7 0 ]
+"37
+[v _stepY stepY `[7]uc  1 e 7 0 ]
+"38
+[v _stepZ stepZ `[7]uc  1 e 7 0 ]
+"41
+[v _coords coords `[9]uc  1 e 9 0 ]
+[v _canvas canvas `[7]uc  1 e 7 0 ]
+[v _canvasX canvasX `[3]uc  1 e 3 0 ]
+[v _canvasY canvasY `[3]uc  1 e 3 0 ]
+"44
+[v _limitX0 limitX0 `uc  1 e 1 0 ]
+[v _limitX1 limitX1 `uc  1 e 1 0 ]
+[v _limitY0 limitY0 `uc  1 e 1 0 ]
+[v _limitY1 limitY1 `uc  1 e 1 0 ]
+[v _limitZ0 limitZ0 `uc  1 e 1 0 ]
+[v _limitZ1 limitZ1 `uc  1 e 1 0 ]
+"47
+[v _stepx stepx `i  1 e 2 0 ]
+[v _stepy stepy `i  1 e 2 0 ]
+[v _stepz stepz `i  1 e 2 0 ]
+[v _canvasx canvasx `i  1 e 2 0 ]
+[v _canvasy canvasy `i  1 e 2 0 ]
+"49
+[v _stepxTodo stepxTodo `i  1 e 2 0 ]
+[v _stepyTodo stepyTodo `i  1 e 2 0 ]
+[v _stepzTodo stepzTodo `i  1 e 2 0 ]
+"50
+[v _stepXprec stepXprec `i  1 e 2 0 ]
+[v _stepYprec stepYprec `i  1 e 2 0 ]
+[v _stepZprec stepZprec `i  1 e 2 0 ]
+"53
+[v _defaultDirx defaultDirx `uc  1 e 1 0 ]
+[v _defaultDiry defaultDiry `uc  1 e 1 0 ]
+[v _defaultDirz defaultDirz `uc  1 e 1 0 ]
+"55
+[v _end end `uc  1 e 1 0 ]
+[s S232 stepMotor 5 `uc 1 dir 1 0 `uc 1 speed 1 1 `uc 1 mod 1 2 `i 1 stepsToDo 2 3 ]
+"82
+[v _motorX motorX `S232  1 e 5 0 ]
+[v _motorY motorY `S232  1 e 5 0 ]
+[v _motorZ motorZ `S232  1 e 5 0 ]
+"63 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _steps steps `uc  1 e 1 0 ]
+"85 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"209
+[v main@i_513 i `i  1 a 2 24 ]
+"205
+[v main@i_511 i `i  1 a 2 22 ]
+"191
+[v main@i i `i  1 a 2 30 ]
+"188
+[v main@activeY activeY `i  1 a 2 28 ]
+[v main@activeX activeX `i  1 a 2 26 ]
+[v main@activeZ activeZ `i  1 a 2 20 ]
+"187
+[v main@largest largest `i  1 a 2 18 ]
+"230
+} 0
+"276
+[v _toint toint `(i  1 e 2 0 ]
+{
+[v toint@c c `*.4uc  1 a 1 wreg ]
+"277
+[v toint@i i `i  1 a 2 6 ]
+[v toint@value value `i  1 a 2 4 ]
+[v toint@flag flag `i  1 a 2 2 ]
+[v toint@r r `i  1 a 2 0 ]
+"276
+[v toint@c c `*.4uc  1 a 1 wreg ]
+"279
+[v toint@c c `*.4uc  1 a 1 8 ]
+"298
+} 0
+"4 /opt/microchip/xc8/v1.36/sources/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.4DCCuc  1 a 1 wreg ]
+"6
+[v strlen@cp cp `*.4DCCuc  1 a 1 7 ]
+"4
+[v strlen@s s `*.4DCCuc  1 a 1 wreg ]
+"8
+[v strlen@s s `*.4DCCuc  1 a 1 6 ]
+"13
+} 0
+"33 /opt/microchip/xc8/v1.36/sources/common/strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 wreg ]
+"35
+[v strcmp@r r `c  1 a 1 4 ]
+"33
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 wreg ]
+[v strcmp@s2 s2 `*.24DCCuc  1 p 1 0 ]
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 5 ]
+"42
+} 0
+"202 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _stepMotorZ stepMotorZ `(v  1 e 1 0 ]
+{
+[v stepMotorZ@dir dir `uc  1 a 1 wreg ]
+[v stepMotorZ@dir dir `uc  1 a 1 wreg ]
+[v stepMotorZ@speed speed `uc  1 p 1 4 ]
+[v stepMotorZ@mod mod `i  1 p 2 5 ]
+[v stepMotorZ@dir dir `uc  1 a 1 7 ]
+"225
+} 0
+"95 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+[v _modM3 modM3 `(v  1 e 1 0 ]
+{
+[v modM3@m m `i  1 p 2 0 ]
+"139
+} 0
+"181 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _stepMotorY stepMotorY `(v  1 e 1 0 ]
+{
+[v stepMotorY@dir dir `uc  1 a 1 wreg ]
+[v stepMotorY@dir dir `uc  1 a 1 wreg ]
+[v stepMotorY@speed speed `uc  1 p 1 4 ]
+[v stepMotorY@mod mod `i  1 p 2 5 ]
+[v stepMotorY@dir dir `uc  1 a 1 7 ]
+"200
+} 0
+"47 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+[v _modM2 modM2 `(v  1 e 1 0 ]
+{
+[v modM2@m m `i  1 p 2 0 ]
+"91
+} 0
+"159 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _stepMotorX stepMotorX `(v  1 e 1 0 ]
+{
+[v stepMotorX@dir dir `uc  1 a 1 wreg ]
+[v stepMotorX@dir dir `uc  1 a 1 wreg ]
+[v stepMotorX@speed speed `uc  1 p 1 4 ]
+[v stepMotorX@mod mod `i  1 p 2 5 ]
+[v stepMotorX@dir dir `uc  1 a 1 7 ]
+"178
+} 0
+"67
+[v _ms_delay ms_delay `(v  1 e 1 0 ]
+{
+[v ms_delay@val val `uc  1 a 1 wreg ]
+"68
+[v ms_delay@i i `uc  1 a 1 3 ]
+"67
+[v ms_delay@val val `uc  1 a 1 wreg ]
+"69
+[v ms_delay@val val `uc  1 a 1 2 ]
+"71
+} 0
+"1 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+[v _modM1 modM1 `(v  1 e 1 0 ]
+{
+[v modM1@m m `i  1 p 2 0 ]
+"45
+} 0
+"231 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _maxStep maxStep `(i  1 e 2 0 ]
+{
+"232
+[v maxStep@l l `i  1 a 2 11 ]
+"231
+[v maxStep@stepx stepx `i  1 p 2 0 ]
+[v maxStep@stepy stepy `i  1 p 2 2 ]
+[v maxStep@stepz stepz `i  1 p 2 4 ]
+"234
+} 0
+"250 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _getCoords getCoords `(i  1 e 2 0 ]
+{
+[v getCoords@coords coords `*.4uc  1 a 1 wreg ]
+"259
+[v getCoords@i i `i  1 a 2 9 ]
+"250
+[v getCoords@coords coords `*.4uc  1 a 1 wreg ]
+"253
+[v getCoords@coords coords `*.4uc  1 a 1 8 ]
+"264
+} 0
+"231
+[v _getCanvasDim getCanvasDim `(i  1 e 2 0 ]
+{
+[v getCanvasDim@canvas canvas `*.4uc  1 a 1 wreg ]
+"237
+[v getCanvasDim@j j `i  1 a 2 8 ]
+"231
+[v getCanvasDim@canvas canvas `*.4uc  1 a 1 wreg ]
+"234
+[v getCanvasDim@canvas canvas `*.4uc  1 a 1 7 ]
+"247
+} 0
+"41 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+{
+[v UART_TxString@str str `*.26DCCuc  1 p 2 1 ]
+"47
+} 0
+"64
+[v _UART_RxString UART_RxString `(uc  1 e 1 0 ]
+{
+[v UART_RxString@stringa stringa `*.4uc  1 a 1 wreg ]
+"66
+[v UART_RxString@ch ch `uc  1 a 1 4 ]
+"67
+[v UART_RxString@len len `uc  1 a 1 3 ]
+"64
+[v UART_RxString@stringa stringa `*.4uc  1 a 1 wreg ]
+"67
+[v UART_RxString@stringa stringa `*.4uc  1 a 1 2 ]
+"92
+} 0
+"50
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+{
+"62
+} 0
+"266 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _equivVal equivVal `(i  1 e 2 0 ]
+{
+[v equivVal@Mcanvas Mcanvas `i  1 p 2 9 ]
+[v equivVal@Mstep Mstep `i  1 p 2 11 ]
+[v equivVal@canvas canvas `i  1 p 2 13 ]
+"274
+} 0
+"6 /opt/microchip/xc8/v1.36/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+[v ___awdiv@dividend dividend `i  1 p 2 8 ]
+"42
+} 0
+"354 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _contStepY contStepY `(v  1 e 1 0 ]
+{
+"371
+} 0
+"315
+[v _contStepX contStepX `(v  1 e 1 0 ]
+{
+"331
+} 0
+"301
+[v _constSpeed constSpeed `(v  1 e 1 0 ]
+{
+"303
+[v constSpeed@nMotor nMotor `i  1 a 2 7 ]
+"301
+[v constSpeed@activeX activeX `i  1 p 2 0 ]
+[v constSpeed@activeY activeY `i  1 p 2 2 ]
+[v constSpeed@activeZ activeZ `i  1 p 2 4 ]
+"312
+} 0
+"237 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _activeMotor activeMotor `(i  1 e 2 0 ]
+{
+[v activeMotor@i i `i  1 p 2 0 ]
+[v activeMotor@step step `i  1 p 2 2 ]
+"241
+} 0
+"102 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+[v _UART_TxInt UART_TxInt `(v  1 e 1 0 ]
+{
+"112
+[v UART_TxInt@cent cent `uc  1 a 1 12 ]
+[v UART_TxInt@dec dec `uc  1 a 1 11 ]
+[v UART_TxInt@uni uni `uc  1 a 1 10 ]
+"104
+[v UART_TxInt@sig sig `uc  1 a 1 9 ]
+"102
+[v UART_TxInt@val val `i  1 p 2 6 ]
+"139
+} 0
+"15 /opt/microchip/xc8/v1.36/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"4 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+"33
+} 0
+"95
+[v _UART_GotoNewLine UART_GotoNewLine `(v  1 e 1 0 ]
+{
+"99
+} 0
+"35
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+{
+[v UART_TxChar@ch ch `uc  1 a 1 wreg ]
+[v UART_TxChar@ch ch `uc  1 a 1 wreg ]
+[v UART_TxChar@ch ch `uc  1 a 1 0 ]
+"39
+} 0
