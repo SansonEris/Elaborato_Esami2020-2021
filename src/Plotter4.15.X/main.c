@@ -153,7 +153,7 @@ void main(void) {
             end = 1;
           
        if(end != 1){
-        //step da eseguire per ogni asse con equivalenza        
+            //step da eseguire per ogni asse con equivalenza        
            stepx = equivVal(canvasX, MStepX,toint(stepX));
            UART_GotoNewLine(); 
            UART_TxString("ecoX: ");

@@ -2916,7 +2916,18 @@ motorZ.dir = 1;
 motorZ.speed = 1;
 motorZ.mod = 1;
 
-# 131
+# 120
+MStepX = motorXInit();
+defaultDirx = motorX.dir;
+
+MStepY = motorYInit();
+defaultDiry = motorY.dir;
+
+
+MStepZ = motorZInit();
+defaultDirz = motorZ.dir;
+
+
 while(1){
 
 end = 0;
@@ -2943,12 +2954,12 @@ end = 1;
 
 if(end != 1){
 
-stepx = equivVal( 1, 1,toint(stepX));
+stepx = equivVal(canvasX, MStepX,toint(stepX));
 UART_GotoNewLine();
 UART_TxString("ecoX: ");
 UART_TxInt(stepx);
 
-stepy = equivVal( 1, 1,toint(stepY));
+stepy = equivVal(canvasY, MStepY,toint(stepY));
 UART_GotoNewLine();
 UART_TxString("ecoY: ");
 UART_TxInt(stepy);

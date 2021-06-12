@@ -126,7 +126,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
 "3375
 [v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
-"58 main.c
+"63 main.c
+[v _motorXInit `(i ~T0 @X0 0 ef ]
+"64
+[v _motorYInit `(i ~T0 @X0 0 ef ]
+"65
+[v _motorZInit `(i ~T0 @X0 0 ef ]
+"58
 [v _getCanvasDim `(i ~T0 @X0 0 ef1`*uc ]
 "61
 [v _toint `(i ~T0 @X0 0 ef1`*uc ]
@@ -3689,6 +3695,24 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 114: motorZ.mod = 1;
 "114
 [e = . _motorZ 2 -> -> 1 `i `uc ]
+[; ;main.c: 120: MStepX = motorXInit();
+"120
+[e = _MStepX ( _motorXInit ..  ]
+[; ;main.c: 121: defaultDirx = motorX.dir;
+"121
+[e = _defaultDirx . _motorX 0 ]
+[; ;main.c: 123: MStepY = motorYInit();
+"123
+[e = _MStepY ( _motorYInit ..  ]
+[; ;main.c: 124: defaultDiry = motorY.dir;
+"124
+[e = _defaultDiry . _motorY 0 ]
+[; ;main.c: 127: MStepZ = motorZInit();
+"127
+[e = _MStepZ ( _motorZInit ..  ]
+[; ;main.c: 128: defaultDirz = motorZ.dir;
+"128
+[e = _defaultDirz . _motorZ 0 ]
 [; ;main.c: 131: while(1){
 "131
 [e :U 275 ]
@@ -3742,9 +3766,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 "155
 [e $ ! != -> _end `i -> 1 `i 282  ]
 {
-[; ;main.c: 157: stepx = equivVal( 1, 1,toint(stepX));
+[; ;main.c: 157: stepx = equivVal(canvasX, MStepX,toint(stepX));
 "157
-[e = _stepx ( _equivVal (3 , , -> 1 `i -> 1 `i ( _toint (1 &U _stepX ]
+[e = _stepx ( _equivVal (3 , , -> &U _canvasX `i _MStepX ( _toint (1 &U _stepX ]
 [; ;main.c: 158: UART_GotoNewLine();
 "158
 [e ( _UART_GotoNewLine ..  ]
@@ -3754,9 +3778,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 160: UART_TxInt(stepx);
 "160
 [e ( _UART_TxInt (1 _stepx ]
-[; ;main.c: 162: stepy = equivVal( 1, 1,toint(stepY));
+[; ;main.c: 162: stepy = equivVal(canvasY, MStepY,toint(stepY));
 "162
-[e = _stepy ( _equivVal (3 , , -> 1 `i -> 1 `i ( _toint (1 &U _stepY ]
+[e = _stepy ( _equivVal (3 , , -> &U _canvasY `i _MStepY ( _toint (1 &U _stepY ]
 [; ;main.c: 163: UART_GotoNewLine();
 "163
 [e ( _UART_GotoNewLine ..  ]

@@ -11,52 +11,58 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xcXkP7yOw.obj
+$/tmp/xcXvb2LSW.obj
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 2 2
 $dist/default/production/Plotter4.15.X.production.obj
-cinit CODE 0 7D9 7D9 27 2
-text1 CODE 0 458 458 71 2
-text2 CODE 0 5E 5E 26 2
-text3 CODE 0 F78 F78 2A 2
-text4 CODE 0 F0 F0 36 2
-text5 CODE 0 209 209 50 2
-text6 CODE 0 BA BA 36 2
-text7 CODE 0 1B9 1B9 50 2
-text8 CODE 0 84 84 36 2
-text9 CODE 0 EC8 EC8 14 2
-text10 CODE 0 169 169 50 2
-text11 CODE 0 126 126 43 2
-text12 CODE 0 2B4 2B4 61 2
-text13 CODE 0 315 315 6B 2
-text14 CODE 0 F55 F55 23 2
-text15 CODE 0 FCD FCD 33 2
-text16 CODE 0 E98 E98 B 2
-text17 CODE 0 F12 F12 21 2
-text18 CODE 0 259 259 5B 2
-text19 CODE 0 3EC 3EC 6C 2
-text20 CODE 0 380 380 6C 2
-text21 CODE 0 F33 F33 22 2
-text22 CODE 0 EB4 EB4 14 2
-text23 CODE 0 4C9 4C9 89 2
-text24 CODE 0 EF1 EF1 21 2
-text25 CODE 0 EDC EDC 15 2
-text26 CODE 0 E8D E8D B 2
-text27 CODE 0 E84 E84 9 2
-nvBANK0 BANK0 1 6E 6E 1 1
-maintext CODE 0 552 552 287 2
+cinit CODE 0 7CD 7CD 33 2
+text1 CODE 0 100 100 71 2
+text2 CODE 0 C59 C59 26 2
+text3 CODE 0 CA7 CA7 2A 2
+text4 CODE 0 3F8 3F8 FF 2
+text5 CODE 0 D70 D70 36 2
+text6 CODE 0 E89 E89 50 2
+text7 CODE 0 2F9 2F9 FF 2
+text8 CODE 0 D3A D3A 36 2
+text9 CODE 0 E39 E39 50 2
+text10 CODE 0 1FA 1FA FF 2
+text11 CODE 0 D04 D04 36 2
+text12 CODE 0 BBE BBE 14 2
+text13 CODE 0 DE9 DE9 50 2
+text14 CODE 0 B97 B97 13 2
+text15 CODE 0 DA6 DA6 43 2
+text16 CODE 0 F34 F34 61 2
+text17 CODE 0 F95 F95 6B 2
+text18 CODE 0 C36 C36 23 2
+text19 CODE 0 CD1 CD1 33 2
+text20 CODE 0 B7B B7B B 2
+text21 CODE 0 BF3 BF3 21 2
+text22 CODE 0 ED9 ED9 5B 2
+text23 CODE 0 90 90 70 2
+text24 CODE 0 20 20 70 2
+text25 CODE 0 C14 C14 22 2
+text26 CODE 0 BAA BAA 14 2
+text27 CODE 0 171 171 89 2
+text28 CODE 0 BD2 BD2 21 2
+text29 CODE 0 B B 15 2
+text30 CODE 0 B70 B70 B 2
+text31 CODE 0 B67 B67 9 2
+nvBANK0 BANK0 1 6F 6F 1 1
+nvBANK1 BANK1 1 D8 D8 9 1
+idataCOMMON CODE 0 B63 B63 1 2
+maintext CODE 0 4F7 4F7 2D6 2
 cstackCOMMON COMMON 1 70 70 D 1
-cstackBANK0 BANK0 1 4E 4E 20 1
-inittext CODE 0 EA3 EA3 11 2
-bssBANK0 BANK0 1 20 20 2E 1
-bssBANK1 BANK1 1 CB CB 16 1
-idataBANK0 CODE 0 5D 5D 1 2
-idataBANK1 CODE 0 FA2 FA2 2B 2
-strings STRING 0 3 3 5A 2
-dataBANK0 BANK0 1 6F 6F 1 1
-dataBANK1 BANK1 1 A0 A0 2B 1
-clrtext CODE 0 E7C E7C 8 2
-bssCOMMON COMMON 1 7D 7D 1 1
+cstackBANK0 BANK0 1 4C 4C 20 1
+inittext CODE 0 B86 B86 11 2
+bssBANK0 BANK0 1 20 20 2C 1
+bssBANK1 BANK1 1 C8 C8 10 1
+idataBANK0 CODE 0 B64 B64 3 2
+idataBANK1 CODE 0 C7F C7F 28 2
+strings STRING 0 800 800 5A 2
+dataBANK0 BANK0 1 6C 6C 3 1
+dataBANK1 BANK1 1 A0 A0 28 1
+dataCOMMON COMMON 1 7D 7D 1 1
+clrtext CODE 0 3 3 8 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -69,22 +75,22 @@ RAM 190-1EF 1
 BANK1 E1-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
-CONST 800-E7B 2
+CONST 85A-B62 2
 CONST 1000-1FFF 2
-ENTRY 800-E7B 2
+ENTRY 85A-B62 2
 ENTRY 1000-1FFF 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
-CODE 800-E7B 2
+CODE 85A-B62 2
 CODE 1000-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-10F 1
 SFR3 180-18F 1
 EEDATA 2100-21FF 2
-STRCODE 800-E7B 2
+STRCODE 85A-B62 2
 STRCODE 1000-1FFF 2
-STRING 800-E7B 2
+STRING 85A-B62 2
 STRING 1000-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -100,488 +106,618 @@ STRING 1000-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/Plotter4.15.X.production.obj
-7D9 cinit CODE >578:/tmp/xcXLZWr2H
-7D9 cinit CODE >581:/tmp/xcXLZWr2H
-7D9 cinit CODE >743:/tmp/xcXLZWr2H
-7DA cinit CODE >746:/tmp/xcXLZWr2H
-7DB cinit CODE >747:/tmp/xcXLZWr2H
-7DC cinit CODE >748:/tmp/xcXLZWr2H
-7DD cinit CODE >749:/tmp/xcXLZWr2H
-7DE cinit CODE >750:/tmp/xcXLZWr2H
-7E3 cinit CODE >753:/tmp/xcXLZWr2H
-7E4 cinit CODE >754:/tmp/xcXLZWr2H
-7E5 cinit CODE >755:/tmp/xcXLZWr2H
-7E6 cinit CODE >756:/tmp/xcXLZWr2H
-7EB cinit CODE >788:/tmp/xcXLZWr2H
-7EC cinit CODE >789:/tmp/xcXLZWr2H
-7ED cinit CODE >790:/tmp/xcXLZWr2H
-7EE cinit CODE >791:/tmp/xcXLZWr2H
-7EF cinit CODE >792:/tmp/xcXLZWr2H
-7F0 cinit CODE >793:/tmp/xcXLZWr2H
-7F1 cinit CODE >794:/tmp/xcXLZWr2H
-7F2 cinit CODE >795:/tmp/xcXLZWr2H
-7F3 cinit CODE >796:/tmp/xcXLZWr2H
-7F8 cinit CODE >800:/tmp/xcXLZWr2H
-7FB cinit CODE >801:/tmp/xcXLZWr2H
-7FC cinit CODE >807:/tmp/xcXLZWr2H
-7FC cinit CODE >809:/tmp/xcXLZWr2H
-7FD cinit CODE >810:/tmp/xcXLZWr2H
-E84 text27 CODE >35:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E85 text27 CODE >36:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E89 text27 CODE >37:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E8A text27 CODE >38:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E8C text27 CODE >39:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E8D text26 CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E8D text26 CODE >97:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E93 text26 CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E97 text26 CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EDC text25 CODE >4:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EDC text25 CODE >8:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE0 text25 CODE >9:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE1 text25 CODE >11:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE4 text25 CODE >14:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE7 text25 CODE >15:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE8 text25 CODE >16:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EE9 text25 CODE >17:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EEA text25 CODE >20:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EED text25 CODE >21:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EEE text25 CODE >22:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EEF text25 CODE >23:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EF0 text25 CODE >33:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EF1 text24 CODE >15:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-EF1 text24 CODE >43:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-EF3 text24 CODE >45:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-EF5 text24 CODE >46:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-EFB text24 CODE >47:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-F02 text24 CODE >48:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-F09 text24 CODE >49:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-F0D text24 CODE >52:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
-4C9 text23 CODE >102:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4C9 text23 CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4CA text23 CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4CC text23 CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4CE text23 CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4DF text23 CODE >112:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4E2 text23 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4ED text23 CODE >117:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4F3 text23 CODE >118:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4F7 text23 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4F8 text23 CODE >121:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-4FE text23 CODE >122:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-502 text23 CODE >120:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-50D text23 CODE >124:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-511 text23 CODE >126:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-51C text23 CODE >127:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-520 text23 CODE >129:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-528 text23 CODE >130:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-52C text23 CODE >132:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-530 text23 CODE >134:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-539 text23 CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-543 text23 CODE >137:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-54D text23 CODE >138:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-551 text23 CODE >139:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EB4 text22 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EB4 text22 CODE >238:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EC0 text22 CODE >239:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EC5 text22 CODE >240:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-F33 text21 CODE >301:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F33 text21 CODE >303:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F3B text21 CODE >307:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F40 text21 CODE >308:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F48 text21 CODE >309:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F4C text21 CODE >310:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-380 text20 CODE >315:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-380 text20 CODE >318:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-38E text20 CODE >319:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-39F text20 CODE >320:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3A4 text20 CODE >321:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3A6 text20 CODE >322:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3B5 text20 CODE >323:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3C6 text20 CODE >324:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3CA text20 CODE >325:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3CF text20 CODE >326:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3D1 text20 CODE >328:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3DC text20 CODE >329:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3EB text20 CODE >331:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3EC text19 CODE >354:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3EC text19 CODE >358:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-3FA text19 CODE >359:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-40B text19 CODE >360:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-410 text19 CODE >361:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-412 text19 CODE >362:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-421 text19 CODE >363:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-432 text19 CODE >364:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-436 text19 CODE >365:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-43B text19 CODE >366:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-43D text19 CODE >368:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-448 text19 CODE >369:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-457 text19 CODE >371:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-259 text18 CODE >6:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-259 text18 CODE >14:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-25C text18 CODE >15:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-25E text18 CODE >16:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-263 text18 CODE >17:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-265 text18 CODE >19:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-267 text18 CODE >20:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-26C text18 CODE >21:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-270 text18 CODE >23:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-272 text18 CODE >24:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-276 text18 CODE >25:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-278 text18 CODE >26:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-27A text18 CODE >27:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-281 text18 CODE >28:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-285 text18 CODE >26:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-286 text18 CODE >31:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-28D text18 CODE >32:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-295 text18 CODE >33:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-29B text18 CODE >34:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-29C text18 CODE >36:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-2A3 text18 CODE >37:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-2A7 text18 CODE >39:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-2AA text18 CODE >40:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-2AF text18 CODE >41:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
-F12 text17 CODE >266:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-F12 text17 CODE >273:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-E98 text16 CODE >50:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E98 text16 CODE >52:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E9C text16 CODE >54:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E9D text16 CODE >55:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-E9E text16 CODE >58:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EA0 text16 CODE >59:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-EA1 text16 CODE >60:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FCD text15 CODE >64:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FCE text15 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FCF text15 CODE >71:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FD7 text15 CODE >73:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FDF text15 CODE >75:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FE6 text15 CODE >76:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FE7 text15 CODE >79:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FEE text15 CODE >81:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FF0 text15 CODE >82:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FF1 text15 CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FFB text15 CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-FFF text15 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-F55 text14 CODE >41:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-F55 text14 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-F63 text14 CODE >44:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-F73 text14 CODE >45:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-F77 text14 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
-315 text13 CODE >231:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-316 text13 CODE >234:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-31F text13 CODE >235:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-325 text13 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-332 text13 CODE >238:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-33F text13 CODE >239:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-34C text13 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-35D text13 CODE >243:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-366 text13 CODE >244:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-36F text13 CODE >245:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-378 text13 CODE >246:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-37F text13 CODE >247:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2B4 text12 CODE >250:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2B5 text12 CODE >253:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2C2 text12 CODE >254:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2C8 text12 CODE >255:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2D1 text12 CODE >256:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2DA text12 CODE >259:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2E7 text12 CODE >260:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-2F4 text12 CODE >261:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-301 text12 CODE >262:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-30E text12 CODE >259:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-126 text11 CODE >231:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-126 text11 CODE >232:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-128 text11 CODE >233:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-169 text10 CODE >1:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-169 text10 CODE >3:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-16D text10 CODE >4:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-170 text10 CODE >5:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-171 text10 CODE >6:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-172 text10 CODE >9:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-177 text10 CODE >10:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-17A text10 CODE >11:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-17B text10 CODE >12:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-17C text10 CODE >14:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-181 text10 CODE >15:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-184 text10 CODE >16:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-185 text10 CODE >17:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-186 text10 CODE >19:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-18B text10 CODE >20:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-18E text10 CODE >21:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-18F text10 CODE >22:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-190 text10 CODE >24:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-195 text10 CODE >25:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-198 text10 CODE >26:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-199 text10 CODE >27:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-19A text10 CODE >29:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-19F text10 CODE >30:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1A2 text10 CODE >31:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1A3 text10 CODE >32:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1A4 text10 CODE >34:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1A9 text10 CODE >35:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1AC text10 CODE >36:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1AD text10 CODE >37:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1AE text10 CODE >39:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1B3 text10 CODE >40:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1B6 text10 CODE >41:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1B7 text10 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-EC8 text9 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EC9 text9 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-ECE text9 CODE >70:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-ED7 text9 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-84 text8 CODE >159:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-85 text8 CODE >160:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-8E text8 CODE >162:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-91 text8 CODE >163:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-94 text8 CODE >164:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-95 text8 CODE >165:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-9B text8 CODE >166:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-9E text8 CODE >167:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-9F text8 CODE >168:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-A3 text8 CODE >169:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-A4 text8 CODE >170:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-A7 text8 CODE >171:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-AA text8 CODE >172:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-AB text8 CODE >173:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-B1 text8 CODE >174:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-B4 text8 CODE >175:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-B5 text8 CODE >176:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-B9 text8 CODE >177:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-1B9 text7 CODE >47:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1B9 text7 CODE >49:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1BD text7 CODE >50:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1C0 text7 CODE >51:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1C1 text7 CODE >52:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1C2 text7 CODE >55:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1C7 text7 CODE >56:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1CA text7 CODE >57:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1CB text7 CODE >58:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1CC text7 CODE >60:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1D1 text7 CODE >61:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1D4 text7 CODE >62:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1D5 text7 CODE >63:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1D6 text7 CODE >65:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1DB text7 CODE >66:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1DE text7 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1DF text7 CODE >68:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1E0 text7 CODE >70:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1E5 text7 CODE >71:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1E8 text7 CODE >72:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1E9 text7 CODE >73:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1EA text7 CODE >75:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1EF text7 CODE >76:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1F2 text7 CODE >77:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1F3 text7 CODE >78:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1F4 text7 CODE >80:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1F9 text7 CODE >81:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1FC text7 CODE >82:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1FD text7 CODE >83:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-1FE text7 CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-203 text7 CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-206 text7 CODE >87:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-207 text7 CODE >88:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-BA text6 CODE >181:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-BB text6 CODE >182:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-C4 text6 CODE >184:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-C7 text6 CODE >185:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-CA text6 CODE >186:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-CB text6 CODE >187:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-D1 text6 CODE >188:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-D4 text6 CODE >189:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-D5 text6 CODE >190:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-D9 text6 CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-DA text6 CODE >192:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-DD text6 CODE >193:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-E0 text6 CODE >194:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-E1 text6 CODE >195:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-E7 text6 CODE >196:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EA text6 CODE >197:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EB text6 CODE >198:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-EF text6 CODE >199:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-209 text5 CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-209 text5 CODE >97:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-20D text5 CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-210 text5 CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-211 text5 CODE >100:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-212 text5 CODE >103:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-217 text5 CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-21A text5 CODE >105:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-21B text5 CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-21C text5 CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-221 text5 CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-224 text5 CODE >110:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-225 text5 CODE >111:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-226 text5 CODE >113:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-22B text5 CODE >114:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-22E text5 CODE >115:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-22F text5 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-230 text5 CODE >118:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-235 text5 CODE >119:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-238 text5 CODE >120:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-239 text5 CODE >121:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-23A text5 CODE >123:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-23F text5 CODE >124:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-242 text5 CODE >125:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-243 text5 CODE >126:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-244 text5 CODE >128:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-249 text5 CODE >129:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-24C text5 CODE >130:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-24D text5 CODE >131:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-24E text5 CODE >133:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-253 text5 CODE >134:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-256 text5 CODE >135:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-257 text5 CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
-F0 text4 CODE >202:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-F1 text4 CODE >203:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-FA text4 CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-FD text4 CODE >207:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-100 text4 CODE >208:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-101 text4 CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-107 text4 CODE >211:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-10A text4 CODE >212:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-10B text4 CODE >213:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-10F text4 CODE >214:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-110 text4 CODE >215:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-113 text4 CODE >217:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-116 text4 CODE >218:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-117 text4 CODE >219:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-11D text4 CODE >221:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-120 text4 CODE >222:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-121 text4 CODE >223:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-125 text4 CODE >224:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
-F78 text3 CODE >33:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-F79 text3 CODE >37:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-F7A text3 CODE >38:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-F7E text3 CODE >39:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-F82 text3 CODE >37:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-F9C text3 CODE >41:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
-5E text2 CODE >4:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-5F text2 CODE >8:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-63 text2 CODE >9:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-69 text2 CODE >10:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-6D text2 CODE >9:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-6E text2 CODE >12:/opt/microchip/xc8/v1.36/sources/common/strlen.c
-458 text1 CODE >276:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-45B text1 CODE >279:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-45F text1 CODE >280:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-463 text1 CODE >282:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-475 text1 CODE >285:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-483 text1 CODE >286:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-487 text1 CODE >287:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-488 text1 CODE >290:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-495 text1 CODE >291:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-4AC text1 CODE >282:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-4B3 text1 CODE >294:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-4C4 text1 CODE >296:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-552 maintext CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-552 maintext CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-555 maintext CODE >87:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-556 maintext CODE >88:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-557 maintext CODE >89:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-558 maintext CODE >90:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-559 maintext CODE >92:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-55C maintext CODE >93:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-55E maintext CODE >94:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-560 maintext CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-561 maintext CODE >96:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-562 maintext CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-565 maintext CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-566 maintext CODE >102:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-56B maintext CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-56F maintext CODE >105:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-571 maintext CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-573 maintext CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-575 maintext CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-577 maintext CODE >110:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-579 maintext CODE >112:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-57B maintext CODE >113:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-57D maintext CODE >114:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-57F maintext CODE >133:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-580 maintext CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-586 maintext CODE >137:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-592 maintext CODE >138:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-59B maintext CODE >139:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5A7 maintext CODE >140:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5B0 maintext CODE >142:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5B0 maintext CODE >143:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5B6 maintext CODE >144:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5BF maintext CODE >145:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5C8 maintext CODE >148:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5D8 maintext CODE >149:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5DE maintext CODE >152:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5EE maintext CODE >153:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5F2 maintext CODE >155:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-5F7 maintext CODE >157:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-616 maintext CODE >158:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-61B maintext CODE >159:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-624 maintext CODE >160:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-62F maintext CODE >162:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-650 maintext CODE >163:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-655 maintext CODE >164:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-65E maintext CODE >165:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-669 maintext CODE >168:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-675 maintext CODE >169:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-67A maintext CODE >170:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-683 maintext CODE >171:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-68E maintext CODE >175:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-693 maintext CODE >176:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-698 maintext CODE >177:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6A1 maintext CODE >178:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6AC maintext CODE >179:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6B1 maintext CODE >180:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6B6 maintext CODE >181:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6BF maintext CODE >182:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6CA maintext CODE >187:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6E3 maintext CODE >188:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6E9 maintext CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-6F7 maintext CODE >192:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-70C maintext CODE >193:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-71F maintext CODE >195:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-730 maintext CODE >197:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-736 maintext CODE >198:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-747 maintext CODE >200:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-74D maintext CODE >201:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-75E maintext CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-767 maintext CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-777 maintext CODE >206:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-77D maintext CODE >207:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-78E maintext CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-797 maintext CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7A7 maintext CODE >210:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7AE maintext CODE >211:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7B0 maintext CODE >212:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7C1 maintext CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7CA maintext CODE >218:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7D0 maintext CODE >219:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7D4 maintext CODE >225:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7D7 maintext CODE >227:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-7D8 maintext CODE >131:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
-EA3 inittext CODE >762:/tmp/xcXLZWr2H
-EA3 inittext CODE >763:/tmp/xcXLZWr2H
-EA4 inittext CODE >764:/tmp/xcXLZWr2H
-EA5 inittext CODE >765:/tmp/xcXLZWr2H
-EA6 inittext CODE >766:/tmp/xcXLZWr2H
-EA7 inittext CODE >773:/tmp/xcXLZWr2H
-EA7 inittext CODE >774:/tmp/xcXLZWr2H
-EAA inittext CODE >775:/tmp/xcXLZWr2H
-EAB inittext CODE >776:/tmp/xcXLZWr2H
-EAC inittext CODE >777:/tmp/xcXLZWr2H
-EAD inittext CODE >778:/tmp/xcXLZWr2H
-EAE inittext CODE >779:/tmp/xcXLZWr2H
-EAF inittext CODE >780:/tmp/xcXLZWr2H
-EB0 inittext CODE >781:/tmp/xcXLZWr2H
-EB1 inittext CODE >782:/tmp/xcXLZWr2H
-EB2 inittext CODE >783:/tmp/xcXLZWr2H
-EB3 inittext CODE >784:/tmp/xcXLZWr2H
-E7C clrtext CODE >730:/tmp/xcXLZWr2H
-E7C clrtext CODE >731:/tmp/xcXLZWr2H
-E7D clrtext CODE >732:/tmp/xcXLZWr2H
-E7D clrtext CODE >733:/tmp/xcXLZWr2H
-E7E clrtext CODE >734:/tmp/xcXLZWr2H
-E7F clrtext CODE >735:/tmp/xcXLZWr2H
-E80 clrtext CODE >736:/tmp/xcXLZWr2H
-E81 clrtext CODE >737:/tmp/xcXLZWr2H
-E82 clrtext CODE >738:/tmp/xcXLZWr2H
-E83 clrtext CODE >739:/tmp/xcXLZWr2H
+7CD cinit CODE >614:/tmp/xcX8RkayP
+7CD cinit CODE >617:/tmp/xcX8RkayP
+7CD cinit CODE >760:/tmp/xcX8RkayP
+7CE cinit CODE >761:/tmp/xcX8RkayP
+7CF cinit CODE >762:/tmp/xcX8RkayP
+7D0 cinit CODE >763:/tmp/xcX8RkayP
+7D1 cinit CODE >764:/tmp/xcX8RkayP
+7D6 cinit CODE >767:/tmp/xcX8RkayP
+7D7 cinit CODE >768:/tmp/xcX8RkayP
+7D8 cinit CODE >769:/tmp/xcX8RkayP
+7D9 cinit CODE >770:/tmp/xcX8RkayP
+7DE cinit CODE >802:/tmp/xcX8RkayP
+7DF cinit CODE >803:/tmp/xcX8RkayP
+7E0 cinit CODE >804:/tmp/xcX8RkayP
+7E1 cinit CODE >805:/tmp/xcX8RkayP
+7E2 cinit CODE >806:/tmp/xcX8RkayP
+7E3 cinit CODE >807:/tmp/xcX8RkayP
+7E4 cinit CODE >808:/tmp/xcX8RkayP
+7E5 cinit CODE >809:/tmp/xcX8RkayP
+7E6 cinit CODE >810:/tmp/xcX8RkayP
+7EB cinit CODE >814:/tmp/xcX8RkayP
+7EC cinit CODE >815:/tmp/xcX8RkayP
+7ED cinit CODE >816:/tmp/xcX8RkayP
+7EE cinit CODE >817:/tmp/xcX8RkayP
+7EF cinit CODE >818:/tmp/xcX8RkayP
+7F0 cinit CODE >819:/tmp/xcX8RkayP
+7F1 cinit CODE >820:/tmp/xcX8RkayP
+7F2 cinit CODE >821:/tmp/xcX8RkayP
+7F3 cinit CODE >822:/tmp/xcX8RkayP
+7F8 cinit CODE >826:/tmp/xcX8RkayP
+7FB cinit CODE >827:/tmp/xcX8RkayP
+7FC cinit CODE >833:/tmp/xcX8RkayP
+7FC cinit CODE >835:/tmp/xcX8RkayP
+7FD cinit CODE >836:/tmp/xcX8RkayP
+B67 text31 CODE >35:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B68 text31 CODE >36:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B6C text31 CODE >37:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B6D text31 CODE >38:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B6F text31 CODE >39:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B70 text30 CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B70 text30 CODE >97:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B76 text30 CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B7A text30 CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B text29 CODE >4:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B text29 CODE >8:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+F text29 CODE >9:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+10 text29 CODE >11:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+13 text29 CODE >14:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+16 text29 CODE >15:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+17 text29 CODE >16:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+18 text29 CODE >17:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+19 text29 CODE >20:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1C text29 CODE >21:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1D text29 CODE >22:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1E text29 CODE >23:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1F text29 CODE >33:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+BD2 text28 CODE >15:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BD2 text28 CODE >43:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BD4 text28 CODE >45:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BD6 text28 CODE >46:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BDC text28 CODE >47:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BE3 text28 CODE >48:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BEA text28 CODE >49:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+BEE text28 CODE >52:/opt/microchip/xc8/v1.36/sources/common/Umul16.c
+171 text27 CODE >102:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+171 text27 CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+172 text27 CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+174 text27 CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+176 text27 CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+187 text27 CODE >112:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+18A text27 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+195 text27 CODE >117:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+19B text27 CODE >118:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+19F text27 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1A0 text27 CODE >121:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1A6 text27 CODE >122:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1AA text27 CODE >120:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1B5 text27 CODE >124:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1B9 text27 CODE >126:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1C4 text27 CODE >127:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1C8 text27 CODE >129:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1D0 text27 CODE >130:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1D4 text27 CODE >132:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1D8 text27 CODE >134:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1E1 text27 CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1EB text27 CODE >137:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1F5 text27 CODE >138:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+1F9 text27 CODE >139:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+BAA text26 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BAA text26 CODE >238:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BB6 text26 CODE >239:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BBB text26 CODE >240:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+C14 text25 CODE >301:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C14 text25 CODE >303:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C1C text25 CODE >307:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C21 text25 CODE >308:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C29 text25 CODE >309:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C2D text25 CODE >310:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+20 text24 CODE >315:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+20 text24 CODE >318:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2E text24 CODE >319:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3F text24 CODE >320:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+44 text24 CODE >321:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+46 text24 CODE >322:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+55 text24 CODE >323:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+66 text24 CODE >324:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6C text24 CODE >325:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+73 text24 CODE >326:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+75 text24 CODE >328:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+80 text24 CODE >329:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+8F text24 CODE >331:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+90 text23 CODE >354:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+90 text23 CODE >358:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+9E text23 CODE >359:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+AF text23 CODE >360:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+B4 text23 CODE >361:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+B6 text23 CODE >362:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+C5 text23 CODE >363:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+D6 text23 CODE >364:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+DC text23 CODE >365:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+E3 text23 CODE >366:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+E5 text23 CODE >368:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F0 text23 CODE >369:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FF text23 CODE >371:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+ED9 text22 CODE >6:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+ED9 text22 CODE >14:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EDC text22 CODE >15:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EDE text22 CODE >16:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EE3 text22 CODE >17:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EE5 text22 CODE >19:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EE7 text22 CODE >20:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EEC text22 CODE >21:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EF0 text22 CODE >23:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EF2 text22 CODE >24:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EF6 text22 CODE >25:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EF8 text22 CODE >26:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+EFA text22 CODE >27:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F01 text22 CODE >28:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F05 text22 CODE >26:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F06 text22 CODE >31:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F0D text22 CODE >32:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F15 text22 CODE >33:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F1B text22 CODE >34:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F1C text22 CODE >36:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F23 text22 CODE >37:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F27 text22 CODE >39:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F2A text22 CODE >40:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+F2F text22 CODE >41:/opt/microchip/xc8/v1.36/sources/common/awdiv.c
+BF3 text21 CODE >266:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+BF3 text21 CODE >273:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+B7B text20 CODE >50:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B7B text20 CODE >52:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B7F text20 CODE >54:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B80 text20 CODE >55:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B81 text20 CODE >58:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B83 text20 CODE >59:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+B84 text20 CODE >60:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CD1 text19 CODE >64:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CD2 text19 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CD3 text19 CODE >71:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CDB text19 CODE >73:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CE3 text19 CODE >75:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CEA text19 CODE >76:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CEB text19 CODE >79:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CF2 text19 CODE >81:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CF4 text19 CODE >82:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CF5 text19 CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+CFF text19 CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+D03 text19 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+C36 text18 CODE >41:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+C36 text18 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+C44 text18 CODE >44:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+C54 text18 CODE >45:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+C58 text18 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/UART.h
+F95 text17 CODE >231:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F96 text17 CODE >234:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F9F text17 CODE >235:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FA5 text17 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FB2 text17 CODE >238:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FBF text17 CODE >239:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FCC text17 CODE >237:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FDD text17 CODE >243:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FE6 text17 CODE >244:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FEF text17 CODE >245:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FF8 text17 CODE >246:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+FFF text17 CODE >247:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F34 text16 CODE >250:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F35 text16 CODE >253:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F42 text16 CODE >254:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F48 text16 CODE >255:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F51 text16 CODE >256:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F5A text16 CODE >259:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F67 text16 CODE >260:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F74 text16 CODE >261:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F81 text16 CODE >262:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+F8E text16 CODE >259:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+DA6 text15 CODE >231:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DA6 text15 CODE >232:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DA8 text15 CODE >233:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+B97 text14 CODE >263:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+B97 text14 CODE >264:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+B9B text14 CODE >265:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BA0 text14 CODE >266:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BA2 text14 CODE >267:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BA7 text14 CODE >269:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DE9 text13 CODE >1:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DE9 text13 CODE >3:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DED text13 CODE >4:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DF0 text13 CODE >5:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DF1 text13 CODE >6:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DF2 text13 CODE >9:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DF7 text13 CODE >10:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DFA text13 CODE >11:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DFB text13 CODE >12:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+DFC text13 CODE >14:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E01 text13 CODE >15:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E04 text13 CODE >16:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E05 text13 CODE >17:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E06 text13 CODE >19:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E0B text13 CODE >20:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E0E text13 CODE >21:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E0F text13 CODE >22:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E10 text13 CODE >24:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E15 text13 CODE >25:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E18 text13 CODE >26:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E19 text13 CODE >27:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E1A text13 CODE >29:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E1F text13 CODE >30:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E22 text13 CODE >31:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E23 text13 CODE >32:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E24 text13 CODE >34:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E29 text13 CODE >35:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E2C text13 CODE >36:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E2D text13 CODE >37:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E2E text13 CODE >39:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E33 text13 CODE >40:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E36 text13 CODE >41:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E37 text13 CODE >42:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+BBE text12 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BBF text12 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BC4 text12 CODE >70:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+BCD text12 CODE >69:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D04 text11 CODE >159:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D05 text11 CODE >160:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D0E text11 CODE >162:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D11 text11 CODE >163:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D14 text11 CODE >164:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D15 text11 CODE >165:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D1B text11 CODE >166:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D1E text11 CODE >167:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D1F text11 CODE >168:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D23 text11 CODE >169:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D24 text11 CODE >170:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D27 text11 CODE >171:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D2A text11 CODE >172:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D2B text11 CODE >173:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D31 text11 CODE >174:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D34 text11 CODE >175:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D35 text11 CODE >176:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D39 text11 CODE >177:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+1FA text10 CODE >374:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+1FA text10 CODE >375:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+1FE text10 CODE >376:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+200 text10 CODE >377:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+206 text10 CODE >378:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+208 text10 CODE >379:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+219 text10 CODE >381:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+222 text10 CODE >382:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+229 text10 CODE >383:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+22A text10 CODE >384:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+23B text10 CODE >385:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+245 text10 CODE >386:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+249 text10 CODE >387:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+24D text10 CODE >382:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+24D text10 CODE >388:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+256 text10 CODE >390:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+263 text10 CODE >391:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+273 text10 CODE >392:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+277 text10 CODE >393:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+288 text10 CODE >391:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+291 text10 CODE >395:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+294 text10 CODE >396:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+298 text10 CODE >399:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2A2 text10 CODE >400:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2A9 text10 CODE >401:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2AA text10 CODE >402:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2BB text10 CODE >403:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2C4 text10 CODE >404:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2C8 text10 CODE >405:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2CC text10 CODE >400:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2CC text10 CODE >406:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2D5 text10 CODE >408:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2D7 text10 CODE >409:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2DB text10 CODE >410:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2E8 text10 CODE >377:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2E8 text10 CODE >411:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2F4 text10 CODE >413:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+E39 text9 CODE >47:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E39 text9 CODE >49:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E3D text9 CODE >50:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E40 text9 CODE >51:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E41 text9 CODE >52:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E42 text9 CODE >55:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E47 text9 CODE >56:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E4A text9 CODE >57:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E4B text9 CODE >58:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E4C text9 CODE >60:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E51 text9 CODE >61:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E54 text9 CODE >62:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E55 text9 CODE >63:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E56 text9 CODE >65:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E5B text9 CODE >66:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E5E text9 CODE >67:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E5F text9 CODE >68:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E60 text9 CODE >70:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E65 text9 CODE >71:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E68 text9 CODE >72:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E69 text9 CODE >73:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E6A text9 CODE >75:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E6F text9 CODE >76:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E72 text9 CODE >77:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E73 text9 CODE >78:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E74 text9 CODE >80:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E79 text9 CODE >81:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E7C text9 CODE >82:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E7D text9 CODE >83:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E7E text9 CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E83 text9 CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E86 text9 CODE >87:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E87 text9 CODE >88:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+D3A text8 CODE >181:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D3B text8 CODE >182:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D44 text8 CODE >184:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D47 text8 CODE >185:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D4A text8 CODE >186:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D4B text8 CODE >187:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D51 text8 CODE >188:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D54 text8 CODE >189:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D55 text8 CODE >190:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D59 text8 CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D5A text8 CODE >192:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D5D text8 CODE >193:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D60 text8 CODE >194:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D61 text8 CODE >195:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D67 text8 CODE >196:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D6A text8 CODE >197:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D6B text8 CODE >198:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D6F text8 CODE >199:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+2F9 text7 CODE >416:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2F9 text7 CODE >417:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2FD text7 CODE >418:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+2FF text7 CODE >419:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+305 text7 CODE >420:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+307 text7 CODE >421:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+318 text7 CODE >423:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+321 text7 CODE >424:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+328 text7 CODE >425:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+329 text7 CODE >426:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+33A text7 CODE >427:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+344 text7 CODE >428:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+348 text7 CODE >429:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+34C text7 CODE >424:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+34C text7 CODE >430:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+355 text7 CODE >432:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+362 text7 CODE >433:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+372 text7 CODE >434:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+376 text7 CODE >435:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+387 text7 CODE >433:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+390 text7 CODE >437:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+393 text7 CODE >438:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+397 text7 CODE >441:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3A1 text7 CODE >442:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3A8 text7 CODE >443:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3A9 text7 CODE >444:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3BA text7 CODE >445:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3C3 text7 CODE >446:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3C7 text7 CODE >447:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3CB text7 CODE >442:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3CB text7 CODE >448:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3D4 text7 CODE >450:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3D6 text7 CODE >451:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3DA text7 CODE >452:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3E7 text7 CODE >419:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3E7 text7 CODE >453:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3F3 text7 CODE >455:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+E89 text6 CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E89 text6 CODE >97:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E8D text6 CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E90 text6 CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E91 text6 CODE >100:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E92 text6 CODE >103:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E97 text6 CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E9A text6 CODE >105:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E9B text6 CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+E9C text6 CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EA1 text6 CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EA4 text6 CODE >110:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EA5 text6 CODE >111:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EA6 text6 CODE >113:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EAB text6 CODE >114:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EAE text6 CODE >115:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EAF text6 CODE >116:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EB0 text6 CODE >118:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EB5 text6 CODE >119:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EB8 text6 CODE >120:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EB9 text6 CODE >121:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EBA text6 CODE >123:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EBF text6 CODE >124:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EC2 text6 CODE >125:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EC3 text6 CODE >126:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EC4 text6 CODE >128:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+EC9 text6 CODE >129:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ECC text6 CODE >130:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ECD text6 CODE >131:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ECE text6 CODE >133:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ED3 text6 CODE >134:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ED6 text6 CODE >135:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+ED7 text6 CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
+D70 text5 CODE >202:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D71 text5 CODE >203:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D7A text5 CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D7D text5 CODE >207:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D80 text5 CODE >208:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D81 text5 CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D87 text5 CODE >211:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D8A text5 CODE >212:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D8B text5 CODE >213:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D8F text5 CODE >214:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D90 text5 CODE >215:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D93 text5 CODE >217:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D96 text5 CODE >218:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D97 text5 CODE >219:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+D9D text5 CODE >221:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DA0 text5 CODE >222:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DA1 text5 CODE >223:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+DA5 text5 CODE >224:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+3F8 text4 CODE >458:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3F8 text4 CODE >459:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3FC text4 CODE >460:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+3FE text4 CODE >461:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+404 text4 CODE >462:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+406 text4 CODE >464:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+417 text4 CODE >466:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+420 text4 CODE >468:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+427 text4 CODE >469:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+428 text4 CODE >470:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+439 text4 CODE >471:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+443 text4 CODE >472:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+447 text4 CODE >473:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+44B text4 CODE >468:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+44B text4 CODE >474:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+454 text4 CODE >476:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+461 text4 CODE >477:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+471 text4 CODE >478:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+475 text4 CODE >479:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+486 text4 CODE >477:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+48F text4 CODE >481:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+492 text4 CODE >482:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+496 text4 CODE >486:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4A0 text4 CODE >487:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4A7 text4 CODE >488:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4A8 text4 CODE >489:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4B9 text4 CODE >490:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4C2 text4 CODE >491:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4C6 text4 CODE >492:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4CA text4 CODE >487:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4CA text4 CODE >493:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4D3 text4 CODE >495:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4D5 text4 CODE >496:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4D9 text4 CODE >497:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4E6 text4 CODE >461:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4E6 text4 CODE >498:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4F2 text4 CODE >500:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+CA7 text3 CODE >33:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+CA8 text3 CODE >37:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+CA9 text3 CODE >38:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+CAD text3 CODE >39:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+CB1 text3 CODE >37:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+CCB text3 CODE >41:/opt/microchip/xc8/v1.36/sources/common/strcmp.c
+C59 text2 CODE >4:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+C5A text2 CODE >8:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+C5E text2 CODE >9:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+C64 text2 CODE >10:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+C68 text2 CODE >9:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+C69 text2 CODE >12:/opt/microchip/xc8/v1.36/sources/common/strlen.c
+100 text1 CODE >276:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+103 text1 CODE >279:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+107 text1 CODE >280:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+10B text1 CODE >282:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+11D text1 CODE >285:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+12B text1 CODE >286:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+12F text1 CODE >287:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+130 text1 CODE >290:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+13D text1 CODE >291:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+154 text1 CODE >282:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+15B text1 CODE >294:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+16C text1 CODE >296:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4F7 maintext CODE >85:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4F7 maintext CODE >86:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4FA maintext CODE >87:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4FB maintext CODE >88:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4FC maintext CODE >89:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4FD maintext CODE >90:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+4FE maintext CODE >92:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+501 maintext CODE >93:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+503 maintext CODE >94:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+505 maintext CODE >95:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+506 maintext CODE >96:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+507 maintext CODE >98:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+50A maintext CODE >99:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+50B maintext CODE >102:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+510 maintext CODE >104:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+514 maintext CODE >105:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+516 maintext CODE >106:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+518 maintext CODE >108:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+51A maintext CODE >109:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+51C maintext CODE >110:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+51E maintext CODE >112:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+520 maintext CODE >113:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+522 maintext CODE >114:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+524 maintext CODE >120:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+52F maintext CODE >121:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+537 maintext CODE >123:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+542 maintext CODE >124:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+54A maintext CODE >127:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+555 maintext CODE >128:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+55B maintext CODE >133:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+55E maintext CODE >136:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+564 maintext CODE >137:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+570 maintext CODE >138:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+579 maintext CODE >139:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+585 maintext CODE >140:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+58E maintext CODE >143:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+594 maintext CODE >144:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+59D maintext CODE >145:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5A6 maintext CODE >148:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5B6 maintext CODE >149:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5BC maintext CODE >152:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5CC maintext CODE >153:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5D0 maintext CODE >155:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5D5 maintext CODE >157:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+5FE maintext CODE >158:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+603 maintext CODE >159:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+60C maintext CODE >160:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+617 maintext CODE >162:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+640 maintext CODE >163:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+645 maintext CODE >164:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+64E maintext CODE >165:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+659 maintext CODE >168:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+665 maintext CODE >169:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+66A maintext CODE >170:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+673 maintext CODE >171:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+67E maintext CODE >175:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+683 maintext CODE >176:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+688 maintext CODE >177:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+691 maintext CODE >178:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+69C maintext CODE >179:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6A1 maintext CODE >180:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6A6 maintext CODE >181:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6AF maintext CODE >182:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6BA maintext CODE >187:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6D3 maintext CODE >188:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6D9 maintext CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6E7 maintext CODE >192:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+6FC maintext CODE >193:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+70F maintext CODE >195:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+720 maintext CODE >197:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+726 maintext CODE >198:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+737 maintext CODE >200:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+73D maintext CODE >201:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+74E maintext CODE >191:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+757 maintext CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+767 maintext CODE >206:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+76D maintext CODE >207:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+77E maintext CODE >205:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+787 maintext CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+797 maintext CODE >210:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+79E maintext CODE >211:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7A0 maintext CODE >212:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7B1 maintext CODE >209:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7BA maintext CODE >218:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7C0 maintext CODE >219:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7C4 maintext CODE >225:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7C9 maintext CODE >227:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+7CC maintext CODE >131:/home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+B86 inittext CODE >776:/tmp/xcX8RkayP
+B86 inittext CODE >777:/tmp/xcX8RkayP
+B87 inittext CODE >778:/tmp/xcX8RkayP
+B88 inittext CODE >779:/tmp/xcX8RkayP
+B89 inittext CODE >780:/tmp/xcX8RkayP
+B8A inittext CODE >787:/tmp/xcX8RkayP
+B8A inittext CODE >788:/tmp/xcX8RkayP
+B8D inittext CODE >789:/tmp/xcX8RkayP
+B8E inittext CODE >790:/tmp/xcX8RkayP
+B8F inittext CODE >791:/tmp/xcX8RkayP
+B90 inittext CODE >792:/tmp/xcX8RkayP
+B91 inittext CODE >793:/tmp/xcX8RkayP
+B92 inittext CODE >794:/tmp/xcX8RkayP
+B93 inittext CODE >795:/tmp/xcX8RkayP
+B94 inittext CODE >796:/tmp/xcX8RkayP
+B95 inittext CODE >797:/tmp/xcX8RkayP
+B96 inittext CODE >798:/tmp/xcX8RkayP
+3 clrtext CODE >747:/tmp/xcX8RkayP
+3 clrtext CODE >748:/tmp/xcX8RkayP
+4 clrtext CODE >749:/tmp/xcX8RkayP
+4 clrtext CODE >750:/tmp/xcX8RkayP
+5 clrtext CODE >751:/tmp/xcX8RkayP
+6 clrtext CODE >752:/tmp/xcX8RkayP
+7 clrtext CODE >753:/tmp/xcX8RkayP
+8 clrtext CODE >754:/tmp/xcX8RkayP
+9 clrtext CODE >755:/tmp/xcX8RkayP
+A clrtext CODE >756:/tmp/xcX8RkayP
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -596,7 +732,7 @@ E83 clrtext CODE >739:/tmp/xcXLZWr2H
 %SYMTAB
 UART_TxString@str 71 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 ___latbits 2 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-___awdiv@counter 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+___awdiv@counter 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 getCanvasDim@j 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
 __LdataBANK1 0 0 ABS 0 dataBANK1 -
@@ -608,25 +744,30 @@ __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 getCanvasDim@canvas 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __HidataBANK0 0 0 ABS 0 idataBANK0 -
 __HidataBANK1 0 0 ABS 0 idataBANK1 -
-_UART_TxChar 1D08 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
-_UART_GotoNewLine 1D1A 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
+_UART_TxChar 16CE 0 CODE 0 text31 dist/default/production/Plotter4.15.X.production.obj
+motorYInit@i 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorYInit@j 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorYInit@k 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorYInit@m 54 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_UART_GotoNewLine 16E0 0 CODE 0 text30 dist/default/production/Plotter4.15.X.production.obj
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ltemp0 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ltemp1 82 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ltemp2 86 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ltemp3 80 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-main@i 6C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@i 6A 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __Hstrings 0 0 ABS 0 strings -
+motorXInit@status 56 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 _CREN C4 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _OERR C1 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _RCIF 65 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TXIF 64 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-___sp 0 0 STACK 2 stack /tmp/xcXkP7yOw.obj
-_main AA4 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
+___sp 0 0 STACK 2 stack /tmp/xcXvb2LSW.obj
+_main 9EE 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ltemp 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-start 0 0 CODE 0 init /tmp/xcXkP7yOw.obj
+start 0 0 CODE 0 init /tmp/xcXvb2LSW.obj
 ttemp 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 wtemp 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
@@ -635,7 +776,6 @@ __size_of_main 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_stepMotorX 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_stepMotorY 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_stepMotorZ 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__HbssCOMMON 0 0 ABS 0 bssCOMMON -
 ?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 stepMotorZ@speed 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 modConversionFormNumberToMultiplier@F1996 A0 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
@@ -643,21 +783,24 @@ __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __size_of_constSpeed 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __Hpowerup 0 0 CODE 0 powerup -
-__end_of_activeMotor 1D90 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
+__end_of_activeMotor 177C 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
 __size_of_ms_delay 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ttemp0 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ttemp1 81 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ttemp2 84 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ttemp3 87 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ttemp4 7F 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-equivVal@Mstep 59 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-intlevel0 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-intlevel1 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-intlevel2 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-intlevel3 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-intlevel4 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-intlevel5 0 0 CODE 0 functab /tmp/xcXkP7yOw.obj
-__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+equivVal@Mstep 57 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_motorXInit 3F4 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
+_motorYInit 5F2 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
+_motorZInit 7F0 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
+intlevel0 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
+intlevel1 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
+intlevel2 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
+intlevel3 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
+intlevel4 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
+intlevel5 0 0 CODE 0 functab /tmp/xcXvb2LSW.obj
 UART_RxString@ch 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 wtemp1 80 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
@@ -667,86 +810,103 @@ wtemp4 86 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 wtemp5 88 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 wtemp6 7F 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __Hfunctab 0 0 CODE 0 functab -
-_UART_TxInt 992 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
-___awdiv@sign 4F 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_UART_TxInt 2E2 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
+___awdiv@sign 4D 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext -
+__pidataCOMMON 16C6 0 CODE 0 idataCOMMON dist/default/production/Plotter4.15.X.production.obj
 ___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 _ANSELH 189 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ___awdiv@dividend 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_GotoNewLine 1D30 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
-_getCanvasDim 62A 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
+?_limitz 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_GotoNewLine 16F6 0 CODE 0 text30 dist/default/production/Plotter4.15.X.production.obj
+_getCanvasDim 1F2A 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
 getCoords@i 79 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of___wmul 1E24 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
+__end_of___wmul 17E6 0 CODE 0 text28 dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_GotoNewLine 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __Lmaintext 0 0 ABS 0 maintext -
-_ms_delay 1D90 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
+_ms_delay 177C 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
+motorXInit@j_561 52 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __LnvBANK0 0 0 ABS 0 nvBANK0 -
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+motorYInit@status 56 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 ___awdiv@divisor 76 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of___awdiv 568 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
-__end_of_getCoords 62A 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
+__end_of___awdiv 1E68 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
+__end_of_getCoords 1F2A 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
 __size_of_getCoords 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_ms_delay 1DB8 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
+__end_of_motorXInit 5F2 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
+__end_of_motorYInit 7F0 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
+__end_of_motorZInit 9EE 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
+__end_of_ms_delay 17A4 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
 ?_strcmp 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 ?_strlen 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 UART_TxInt@cent 7C 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_TxInt AA4 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
+motorZInit@j_575 52 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_TxInt 3F4 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
 _BAUDCTLbits 187 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
 __size_of_modM1 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_modM2 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_modM3 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_toint 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_contStepX 7D8 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
-__end_of_contStepY 8B0 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
+__end_of_contStepX 120 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
+__end_of_contStepY 200 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
 __size_of_maxStep 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 activeMotor@step 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __size_of_getCanvasDim 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-_MStepX CB 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
-_MStepY CD 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
-_MStepZ CF 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
+_MStepX D8 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+_MStepY DA 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+_MStepZ DC 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
 __size_of_contStepX 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_contStepY 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-_getCoords 568 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
+_getCoords 1E68 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-start_initialization FB2 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
+start_initialization F9A 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
+motorZInit@i 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorZInit@j 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorZInit@k 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorZInit@m 54 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 ?_activeMotor 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_defaultDirx 7D 0 COMMON 1 bssCOMMON dist/default/production/Plotter4.15.X.production.obj
-_defaultDiry 45 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_defaultDirz 46 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-equivVal@canvas 5B 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_defaultDirx DE 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+_defaultDiry DF 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+_defaultDirz 6F 0 BANK0 1 nvBANK0 dist/default/production/Plotter4.15.X.production.obj
+equivVal@canvas 59 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __size_of_equivVal 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-_contStepX 700 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
-_contStepY 7D8 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
+__end_of_limitz 1754 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
+_contStepX 40 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
+_contStepY 120 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
 getCoords@coords 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-clear_ram0 1CF8 0 CODE 0 clrtext dist/default/production/Plotter4.15.X.production.obj
+clear_ram0 6 0 CODE 0 clrtext dist/default/production/Plotter4.15.X.production.obj
 _SPBRGH 9A 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__pcstackBANK0 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-__end_of_getCanvasDim 700 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
+__pcstackBANK0 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+__end_of_getCanvasDim 2000 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
 __size_of_activeMotor 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_RxChar 1D46 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
-___int_sp 0 0 STACK 2 stack /tmp/xcXkP7yOw.obj
+__end_of_UART_RxChar 170C 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
+___int_sp 0 0 STACK 2 stack /tmp/xcXvb2LSW.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
 __Hbank3 0 0 ABS 0 bank3 -
 __Hcinit 1000 0 CODE 0 cinit -
-__end_of_strcmp 1F44 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
-__end_of_strlen 108 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
+__end_of_strcmp 19A2 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
+__end_of_strlen 18FE 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
 __Hidloc 0 0 IDLOC 0 idloc -
 __Hstack 0 0 STACK 2 stack -
-__stringbase 24 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_TxChar 1D1A 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
+__stringbase 101E 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_TxChar 16E0 0 CODE 0 text31 dist/default/production/Plotter4.15.X.production.obj
 __Hmaintext 0 0 ABS 0 maintext -
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 4012 0 CONFIG 0 config -
+motorZInit@status 56 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 ABS 0 bank2 -
 __Lbank3 0 0 ABS 0 bank3 -
-__Lcinit FB2 0 CODE 0 cinit -
+__Lcinit F9A 0 CODE 0 cinit -
 __Lidloc 0 0 IDLOC 0 idloc -
 __Lstack 0 0 STACK 2 stack -
-equivVal@Mcanvas 57 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-_equivVal 1E24 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
+equivVal@Mcanvas 55 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_equivVal 17E6 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
 __Linittext 0 0 ABS 0 inittext -
 _PORTAbits 5 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _PORTBbits 6 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
@@ -769,19 +929,20 @@ __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
 __Lsfr3 0 0 ABS 0 sfr3 -
 __Ltext 0 0 ABS 0 text -
-__pnvBANK0 6E 0 BANK0 1 nvBANK0 dist/default/production/Plotter4.15.X.production.obj
-___wmul 1DE2 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
+__pnvBANK0 6F 0 BANK0 1 nvBANK0 dist/default/production/Plotter4.15.X.production.obj
+__pnvBANK1 D8 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+___wmul 17A4 0 CODE 0 text28 dist/default/production/Plotter4.15.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_UART_TxString 1EAA 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
+_UART_TxString 186C 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
 stepMotorX@speed 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __S0 2009 0 ABS 0 - -
 __S1 E1 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
-_end 6E 0 BANK0 1 nvBANK0 dist/default/production/Plotter4.15.X.production.obj
-__end_of_equivVal 1E66 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
-__end_of_maxStep 2D2 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
+_end E0 0 BANK1 1 nvBANK1 dist/default/production/Plotter4.15.X.production.obj
+__end_of_equivVal 1828 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
+__end_of_maxStep 1BD2 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
 __CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 stepMotorX@dir 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 stepMotorX@mod 75 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
@@ -792,166 +953,184 @@ stepMotorZ@mod 75 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.
 _stepXprec 33 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepYprec 35 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepZprec 37 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_canvas DA 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
-_coords D1 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
+_canvas D1 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
+_coords C8 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
 _stepxTodo 3B 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepyTodo 3F 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepzTodo 43 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
 strcmp@s1 75 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 strcmp@s2 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
 __Lintentry 0 0 CODE 0 intentry -
-__stringtab 6 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
+__stringtab 1000 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
 strcmp@r 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcXkP7yOw.obj
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXvb2LSW.obj
 strlen@s 76 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__pdataBANK0 6F 0 BANK0 1 dataBANK0 dist/default/production/Plotter4.15.X.production.obj
+__pdataBANK0 6C 0 BANK0 1 dataBANK0 dist/default/production/Plotter4.15.X.production.obj
 __pdataBANK1 A0 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
+__size_of_motorXInit 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
+__size_of_motorYInit 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
+__size_of_motorZInit 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
 constSpeed@activeX 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 constSpeed@activeY 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 constSpeed@activeZ 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+_limitz 172E 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
 _RCSTAbits 18 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_TxInt 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-main@activeX 68 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-main@activeY 6A 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-main@activeZ 62 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-toint@flag 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@activeX 66 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@activeY 68 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@activeZ 60 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+toint@flag 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 _motorX 20 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _motorY 25 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _motorZ 2A 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-__ptext10 2D2 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
-__ptext11 24C 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
-__ptext12 568 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
-__ptext13 62A 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
-__ptext14 1EAA 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
-__ptext15 1F9A 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
-__ptext16 1D30 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
-__ptext17 1E24 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
-__ptext18 4B2 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
-__ptext19 7D8 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
-__ptext20 700 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
-__ptext21 1E66 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
-__ptext22 1D68 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
-__ptext23 992 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
-__ptext24 1DE2 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
-__ptext25 1DB8 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
-__ptext26 1D1A 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
-__ptext27 1D08 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
+?_motorXInit 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+?_motorYInit 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+?_motorZInit 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+__ptext10 3F4 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
+__ptext11 1A08 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
+__ptext12 177C 0 CODE 0 text12 dist/default/production/Plotter4.15.X.production.obj
+__ptext13 1BD2 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
+__ptext14 172E 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
+__ptext15 1B4C 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
+__ptext16 1E68 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
+__ptext17 1F2A 0 CODE 0 text17 dist/default/production/Plotter4.15.X.production.obj
+__ptext18 186C 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
+__ptext19 19A2 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
+__ptext20 16F6 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
+__ptext21 17E6 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
+__ptext22 1DB2 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
+__ptext23 120 0 CODE 0 text23 dist/default/production/Plotter4.15.X.production.obj
+__ptext24 40 0 CODE 0 text24 dist/default/production/Plotter4.15.X.production.obj
+__ptext25 1828 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
+__ptext26 1754 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
+__ptext27 2E2 0 CODE 0 text27 dist/default/production/Plotter4.15.X.production.obj
+__ptext28 17A4 0 CODE 0 text28 dist/default/production/Plotter4.15.X.production.obj
+__ptext29 16 0 CODE 0 text29 dist/default/production/Plotter4.15.X.production.obj
+__ptext30 16E0 0 CODE 0 text30 dist/default/production/Plotter4.15.X.production.obj
+__ptext31 16CE 0 CODE 0 text31 dist/default/production/Plotter4.15.X.production.obj
 constSpeed@nMotor 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-___awdiv 4B2 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
+___awdiv 1DB2 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
 activeMotor@i 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 UART_RxString@len 73 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_limitX0 47 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_limitX1 48 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_limitY0 49 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_limitY1 4A 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_limitZ0 4B 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_limitZ1 4C 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitX0 45 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitX1 46 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitY0 47 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitY1 48 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitZ0 49 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
+_limitZ1 4A 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 strlen@cp 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__pmaintext AA4 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
-_stepMotorX 108 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
-_stepMotorY 174 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
-_stepMotorZ 1E0 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
+__pmaintext 9EE 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
+_stepMotorX 1A08 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
+_stepMotorY 1A74 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
+_stepMotorZ 1AE0 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 400E 0 CONFIG 0 config -
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-_UART_RxString 1F9A 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
+_UART_RxString 19A2 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __Hinittext 0 0 ABS 0 inittext -
 ___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_constSpeed 1E66 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
-main@i_511 64 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-main@i_513 66 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-_strcmp 1EF0 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
-_strlen BC 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
+_constSpeed 1828 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
+main@i_523 62 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@i_525 64 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+_strcmp 194E 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
+_strlen 18B2 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_RxChar 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-stackhi 0 0 ABS 0 - /tmp/xcXkP7yOw.obj
-stacklo 0 0 ABS 0 - /tmp/xcXkP7yOw.obj
+stackhi 0 0 ABS 0 - /tmp/xcXvb2LSW.obj
+stacklo 0 0 ABS 0 - /tmp/xcXvb2LSW.obj
 __size_of_UART_TxString 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_TxChar 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of__stringtab 26 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
+__end_of__stringtab 1020 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
+__size_of_limitz 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 ms_delay@val 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
-__pbssCOMMON 7D 0 COMMON 1 bssCOMMON dist/default/production/Plotter4.15.X.production.obj
-init_fetch0 1D46 0 CODE 0 inittext dist/default/production/Plotter4.15.X.production.obj
+init_fetch0 170C 0 CODE 0 inittext dist/default/production/Plotter4.15.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
-_activeMotor 1D68 0 CODE 0 text22 dist/default/production/Plotter4.15.X.production.obj
+_activeMotor 1754 0 CODE 0 text26 dist/default/production/Plotter4.15.X.production.obj
 __Lend_init 0 0 CODE 0 end_init -
-?_equivVal 57 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+?_equivVal 55 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorXInit@i 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorXInit@j 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorXInit@k 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+motorXInit@m 54 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 end_of_initialization FF8 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
 __Hintentry 0 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
-___awdiv@quotient 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+___awdiv@quotient 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 ?___awdiv 76 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __Hreset_vec 0 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
-__end_of_UART_TxString 1EF0 0 CODE 0 text14 dist/default/production/Plotter4.15.X.production.obj
-__end_of_stepMotorX 174 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
-__end_of_stepMotorY 1E0 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
-__end_of_stepMotorZ 24C 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_TxString 18B2 0 CODE 0 text18 dist/default/production/Plotter4.15.X.production.obj
+motorYInit@j_568 52 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+__end_of_stepMotorX 1A74 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
+__end_of_stepMotorY 1AE0 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
+__end_of_stepMotorZ 1B4C 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
 __size_of_strcmp 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __size_of_strlen 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_Init 1DE2 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_Init 40 0 CODE 0 text29 dist/default/production/Plotter4.15.X.production.obj
 UART_TxInt@dec 7B 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 UART_TxInt@sig 79 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 UART_TxInt@uni 7A 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 UART_TxInt@val 76 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_Init 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__ptext1 8B0 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
-__ptext2 BC 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
-__ptext3 1EF0 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
-__ptext4 1E0 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
-__ptext5 412 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
-__ptext6 174 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
-__ptext7 372 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
-__ptext8 108 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
-__ptext9 1D90 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
+__ptext1 200 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
+__ptext2 18B2 0 CODE 0 text2 dist/default/production/Plotter4.15.X.production.obj
+__ptext3 194E 0 CODE 0 text3 dist/default/production/Plotter4.15.X.production.obj
+__ptext4 7F0 0 CODE 0 text4 dist/default/production/Plotter4.15.X.production.obj
+__ptext5 1AE0 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
+__ptext6 1D12 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
+__ptext7 5F2 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
+__ptext8 1A74 0 CODE 0 text8 dist/default/production/Plotter4.15.X.production.obj
+__ptext9 1C72 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
 stepMotorY@speed 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of_constSpeed 1EAA 0 CODE 0 text21 dist/default/production/Plotter4.15.X.production.obj
+__end_of_constSpeed 186C 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-_UART_Init 1DB8 0 CODE 0 text25 dist/default/production/Plotter4.15.X.production.obj
+_UART_Init 16 0 CODE 0 text29 dist/default/production/Plotter4.15.X.production.obj
 __CFG_FOSC$XT 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 modM1@m 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 modM2@m 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 modM3@m 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __size_of_UART_RxString 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __end_of__initialization FF8 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
-_canvasX C5 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
-_canvasY C8 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
+_canvasX 6C 0 BANK0 1 dataBANK0 dist/default/production/Plotter4.15.X.production.obj
+_canvasY C5 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
 _canvasx 2F 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _canvasy 31 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 __Lfunctab 0 0 CODE 0 functab -
 UART_RxString@stringa 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_maxStep 24C 0 CODE 0 text11 dist/default/production/Plotter4.15.X.production.obj
-__pidataBANK0 BA 0 CODE 0 idataBANK0 dist/default/production/Plotter4.15.X.production.obj
-__pidataBANK1 1F44 0 CODE 0 idataBANK1 dist/default/production/Plotter4.15.X.production.obj
+_maxStep 1B4C 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
+__pidataBANK0 16C8 0 CODE 0 idataBANK0 dist/default/production/Plotter4.15.X.production.obj
+__pidataBANK1 18FE 0 CODE 0 idataBANK1 dist/default/production/Plotter4.15.X.production.obj
 ?_toint 78 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_maxStep$382 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_maxStep$383 79 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+_maxStep$394 77 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
+_maxStep$395 79 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext -
 maxStep@stepx 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 maxStep@stepy 72 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 maxStep@stepz 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-main@largest 60 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+main@largest 5E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 _TXSTAbits 98 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-toint@value 52 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+toint@value 50 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __Hend_init 6 0 CODE 0 end_init -
-init_ram0 1D4E 0 CODE 0 inittext dist/default/production/Plotter4.15.X.production.obj
+init_ram0 1714 0 CODE 0 inittext dist/default/production/Plotter4.15.X.production.obj
 UART_TxChar@ch 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__end_of_main FB2 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
-__end_of_UART_RxString 2000 0 CODE 0 text15 dist/default/production/Plotter4.15.X.production.obj
+__end_of_main F9A 0 CODE 0 maintext dist/default/production/Plotter4.15.X.production.obj
+__end_of_UART_RxString 1A08 0 CODE 0 text19 dist/default/production/Plotter4.15.X.production.obj
 _ANSEL 188 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _PORTA 5 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _PORTB 6 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
@@ -959,9 +1138,9 @@ _PORTC 7 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _PORTD 8 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _PORTE 9 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _RCREG 1A 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_modM1 372 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
-__end_of_modM2 412 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
-__end_of_modM3 4B2 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
+__end_of_modM1 1C72 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
+__end_of_modM2 1D12 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
+__end_of_modM3 1DB2 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
 _SPBRG 99 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TRISA 85 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TRISB 86 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
@@ -969,37 +1148,38 @@ _TRISC 87 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TRISD 88 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TRISE 89 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _TXREG 19 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__end_of_toint 992 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
+__end_of_toint 2E2 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_modM1 2D2 0 CODE 0 text10 dist/default/production/Plotter4.15.X.production.obj
-_modM2 372 0 CODE 0 text7 dist/default/production/Plotter4.15.X.production.obj
-_modM3 412 0 CODE 0 text5 dist/default/production/Plotter4.15.X.production.obj
+_modM1 1BD2 0 CODE 0 text13 dist/default/production/Plotter4.15.X.production.obj
+_modM2 1C72 0 CODE 0 text9 dist/default/production/Plotter4.15.X.production.obj
+_modM3 1D12 0 CODE 0 text6 dist/default/production/Plotter4.15.X.production.obj
 __CFG_CPD$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 _stepX B0 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
 _stepY B7 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
 _stepZ BE 0 BANK1 1 dataBANK1 dist/default/production/Plotter4.15.X.production.obj
-_steps 6F 0 BANK0 1 dataBANK0 dist/default/production/Plotter4.15.X.production.obj
+_steps 7D 0 COMMON 1 dataCOMMON dist/default/production/Plotter4.15.X.production.obj
 _stepx 39 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepy 3D 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
 _stepz 41 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-_toint 8B0 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
+_toint 200 0 CODE 0 text1 dist/default/production/Plotter4.15.X.production.obj
 maxStep@l 7B 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-toint@c 56 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-toint@i 54 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
-toint@r 4E 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+toint@c 54 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+toint@i 52 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
+toint@r 4C 0 BANK0 1 cstackBANK0 dist/default/production/Plotter4.15.X.production.obj
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
 __HdataBANK1 0 0 ABS 0 dataBANK1 -
 ms_delay@i 73 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-__initialization FB2 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
+__initialization F9A 0 CODE 0 cinit dist/default/production/Plotter4.15.X.production.obj
 __CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production/Plotter4.15.X.production.obj
-__pbssBANK1 CB 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
+__pbssBANK1 C8 0 BANK1 1 bssBANK1 dist/default/production/Plotter4.15.X.production.obj
+__pdataCOMMON 7D 0 COMMON 1 dataCOMMON dist/default/production/Plotter4.15.X.production.obj
 __CFG_WRT$OFF 0 0 ABS 0 - dist/default/production/Plotter4.15.X.production.obj
-__pstrings 6 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
+__pstrings 1000 0 STRING 0 strings dist/default/production/Plotter4.15.X.production.obj
 ___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
 ?_maxStep 70 0 COMMON 1 cstackCOMMON dist/default/production/Plotter4.15.X.production.obj
-_UART_RxChar 1D30 0 CODE 0 text16 dist/default/production/Plotter4.15.X.production.obj
+_UART_RxChar 16F6 0 CODE 0 text20 dist/default/production/Plotter4.15.X.production.obj
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1025,42 +1205,46 @@ _UART_RxChar 1D30 0 CODE 0 text16 dist/default/production/Plotter4.15.X.producti
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-cinit 0 7D9 FB2 27 2
-text1 0 458 8B0 71 2
-text2 0 5E BC 26 2
-text3 0 F78 1EF0 2A 2
-text4 0 F0 1E0 36 2
-text5 0 209 412 50 2
-text6 0 BA 174 36 2
-text7 0 1B9 372 50 2
-text8 0 84 108 36 2
-text9 0 EC8 1D90 14 2
-text10 0 169 2D2 50 2
-text11 0 126 24C 43 2
-text12 0 2B4 568 61 2
-text13 0 315 62A 6B 2
-text14 0 F55 1EAA 23 2
-text15 0 FCD 1F9A 33 2
-text16 0 E98 1D30 B 2
-text17 0 F12 1E24 21 2
-text18 0 259 4B2 5B 2
-text19 0 3EC 7D8 6C 2
-text20 0 380 700 6C 2
-text21 0 F33 1E66 22 2
-text22 0 EB4 1D68 14 2
-text23 0 4C9 992 89 2
-text24 0 EF1 1DE2 21 2
-text25 0 EDC 1DB8 15 2
-text26 0 E8D 1D1A B 2
-text27 0 E84 1D08 9 2
-maintext 0 552 AA4 287 2
+cinit 0 7CD F9A 33 2
+text1 0 100 200 71 2
+text2 0 C59 18B2 26 2
+text3 0 CA7 194E 2A 2
+text4 0 3F8 7F0 FF 2
+text5 0 D70 1AE0 36 2
+text6 0 E89 1D12 50 2
+text7 0 2F9 5F2 FF 2
+text8 0 D3A 1A74 36 2
+text9 0 E39 1C72 50 2
+text10 0 1FA 3F4 FF 2
+text11 0 D04 1A08 36 2
+text12 0 BBE 177C 14 2
+text13 0 DE9 1BD2 50 2
+text14 0 B97 172E 13 2
+text15 0 DA6 1B4C 43 2
+text16 0 F34 1E68 61 2
+text17 0 F95 1F2A 6B 2
+text18 0 C36 186C 23 2
+text19 0 CD1 19A2 33 2
+text20 0 B7B 16F6 B 2
+text21 0 BF3 17E6 21 2
+text22 0 ED9 1DB2 5B 2
+text23 0 90 120 70 2
+text24 0 20 40 70 2
+text25 0 C14 1828 22 2
+text26 0 BAA 1754 14 2
+text27 0 171 2E2 89 2
+text28 0 BD2 17A4 21 2
+text29 0 B 16 15 2
+text30 0 B70 16E0 B 2
+text31 0 B67 16CE 9 2
+idataCOMMON 0 B63 16C6 1 2
+maintext 0 4F7 9EE 2D6 2
 cstackCOMMON 1 70 70 E 1
-inittext 0 EA3 1D46 11 2
-reset_vec 0 0 0 3 2
+inittext 0 B86 170C 11 2
+reset_vec 0 0 0 B 2
 bssBANK0 1 20 20 50 1
-idataBANK0 0 5D BA 1 2
-idataBANK1 0 FA2 1F44 2B 2
-strings 0 3 6 5A 2
+idataBANK0 0 B64 16C8 3 2
+idataBANK1 0 C7F 18FE 28 2
+strings 0 800 1000 5A 2
 dataBANK1 1 A0 A0 41 1
-clrtext 0 E7C 1CF8 8 2
 config 0 2007 400E 2 2

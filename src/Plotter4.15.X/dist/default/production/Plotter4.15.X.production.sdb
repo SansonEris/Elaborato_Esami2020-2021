@@ -47,6 +47,12 @@
 [v _contStepX contStepX `(v  1 e 1 0 ]
 "354
 [v _contStepY contStepY `(v  1 e 1 0 ]
+"374
+[v _motorXInit motorXInit `(i  1 e 2 0 ]
+"416
+[v _motorYInit motorYInit `(i  1 e 2 0 ]
+"458
+[v _motorZInit motorZInit `(i  1 e 2 0 ]
 "1 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/motor_mode.h
 [v _modM1 modM1 `(v  1 e 1 0 ]
 "47
@@ -289,9 +295,9 @@
 [v _main main `(v  1 e 1 0 ]
 {
 "209
-[v main@i_513 i `i  1 a 2 24 ]
+[v main@i_525 i `i  1 a 2 24 ]
 "205
-[v main@i_511 i `i  1 a 2 22 ]
+[v main@i_523 i `i  1 a 2 22 ]
 "191
 [v main@i i `i  1 a 2 30 ]
 "188
@@ -341,6 +347,23 @@
 [v strcmp@s1 s1 `*.4DCCuc  1 a 1 5 ]
 "42
 } 0
+"458 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _motorZInit motorZInit `(i  1 e 2 0 ]
+{
+"487
+[v motorZInit@j_575 j `i  1 a 2 6 ]
+"477
+[v motorZInit@k k `i  1 a 2 4 ]
+"468
+[v motorZInit@j j `i  1 a 2 2 ]
+"461
+[v motorZInit@i i `i  1 a 2 0 ]
+"460
+[v motorZInit@status status `i  1 a 2 10 ]
+"459
+[v motorZInit@m m `i  1 a 2 8 ]
+"501
+} 0
 "202 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
 [v _stepMotorZ stepMotorZ `(v  1 e 1 0 ]
 {
@@ -357,6 +380,23 @@
 [v modM3@m m `i  1 p 2 0 ]
 "139
 } 0
+"416 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _motorYInit motorYInit `(i  1 e 2 0 ]
+{
+"442
+[v motorYInit@j_568 j `i  1 a 2 6 ]
+"433
+[v motorYInit@k k `i  1 a 2 4 ]
+"424
+[v motorYInit@j j `i  1 a 2 2 ]
+"419
+[v motorYInit@i i `i  1 a 2 0 ]
+"418
+[v motorYInit@status status `i  1 a 2 10 ]
+"417
+[v motorYInit@m m `i  1 a 2 8 ]
+"456
+} 0
 "181 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
 [v _stepMotorY stepMotorY `(v  1 e 1 0 ]
 {
@@ -372,6 +412,23 @@
 {
 [v modM2@m m `i  1 p 2 0 ]
 "91
+} 0
+"374 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/main.c
+[v _motorXInit motorXInit `(i  1 e 2 0 ]
+{
+"400
+[v motorXInit@j_561 j `i  1 a 2 6 ]
+"391
+[v motorXInit@k k `i  1 a 2 4 ]
+"382
+[v motorXInit@j j `i  1 a 2 2 ]
+"377
+[v motorXInit@i i `i  1 a 2 0 ]
+"376
+[v motorXInit@status status `i  1 a 2 10 ]
+"375
+[v motorXInit@m m `i  1 a 2 8 ]
+"414
 } 0
 "159 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
 [v _stepMotorX stepMotorX `(v  1 e 1 0 ]
@@ -401,7 +458,12 @@
 [v modM1@m m `i  1 p 2 0 ]
 "45
 } 0
-"231 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+"263 /home/eris/Documents/Elaborato_SanosnEris/src/Plotter4.15.X/stepMotor.h
+[v _limitz limitz `(i  1 e 2 0 ]
+{
+"271
+} 0
+"231
 [v _maxStep maxStep `(i  1 e 2 0 ]
 {
 "232
