@@ -1,9 +1,8 @@
 
 // per il PIC16F887: TX=> RC6   RX=> RC7
 
-void UART_Init()
-{    
-    // bassa velocità (BRGH=0) baud-rate=9600
+void UART_Init(){    
+    // bassa velocitÃ  (BRGH=0) baud-rate=9600
     
     SPBRG=12; 
     SPBRGH=0;
@@ -11,14 +10,14 @@ void UART_Init()
     BAUDCTLbits.BRG16=0; //esclusione del SPBRGH
             
     //TXSTA
-    TXSTAbits.BRGH=0; //Alta velocità del baud rate    
+    TXSTAbits.BRGH=0; //Alta velocitÃ  del baud rate    
     TXSTAbits.TX9=0;  //8 bit transmission
     TXSTAbits.TXEN=1; //Trasmissione abilitata
-    TXSTAbits.SYNC=0; //Modalità asincrona
+    TXSTAbits.SYNC=0; //ModalitÃ  asincrona
 
     //RCSTA
     RCSTAbits.SPEN=1;   //Abilitazione della porta seriale
-    RCSTAbits.RX9=0;    //Modalità 8 bit
+    RCSTAbits.RX9=0;    //ModalitÃ  8 bit
     RCSTAbits.CREN=1;   //Abilitazione della ricezione continua
     RCSTAbits.ADDEN=0;  //Disabilitazione del "address detection"
 
@@ -70,7 +69,7 @@ char UART_RxString(char *stringa){
     {
         ch=UART_RxChar();    //Recevi un carattere
         
-        if((ch=='\r') || (ch=='\n'))  //è premuto il tasto invio? Allora temina la stringa
+        if((ch=='\r') || (ch=='\n'))  //Ã¨ premuto il tasto invio? Allora temina la stringa
         {   
             stringa[len]='\0';        // inserrisci il terminatore di stringa 
             break;                  
@@ -111,7 +110,7 @@ void UART_TxInt(int val)
     
     char cent=0, dec=0, uni=0;
 
- //scomposizione di 'val' in unità decine e centinaia
+ //scomposizione di 'val' in unitÃ  decine e centinaia
     
     while (val>=100) { 
         val-=100;
